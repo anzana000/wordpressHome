@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+.header {
+  height: 100px;
+  background-color: #2d3436;
+  color: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-info {
+  background-color: #b64d07;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  margin: 0 auto;
+  border-radius: 4px;
+  font-size: 11px;
+}
+
+.logo-N-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wordpressOrg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.wordpressOrg img {
+  height: 40px;
+  width: 40px;
+  color: grey;
+}
+
+.search-section {
+  background-color: #222627;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+.search-section input {
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 5px;
+  color: #bdc3c7;
+  font-size: 12px;
+}
+.search-section .MuiSvgIcon-root {
+  position: relative;
+  top: 2px;
+  font-size: 18px;
+}
+
+.button-and-links {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.button-and-links button {
+  outline: none;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.button-and-links ul li {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.button-and-links ul li button {
+  cursor: pointer;
+}
+
+.button-and-links ul li button:hover {
+  color: #3498db;
+}
+
+.button-and-links a > button {
+  background-color: #2980b9;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 2px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.button-and-links a {
+  text-decoration: none;
+}

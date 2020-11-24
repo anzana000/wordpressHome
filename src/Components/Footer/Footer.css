@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  border-top: 1px solid lightgray;
+  padding: 50px 100px;
+  margin: auto;
+  border-bottom: 1px solid lightgray;
+}
+
+.footer li,
+span,
+p {
+  font-size: 12px;
+  text-align: left;
+}
+
+.footer h2 {
+  color: #3498db;
+  font-size: 11px;
+  text-align: justify;
+  border-bottom: 1px solid lightgray;
+  margin: 10px 0;
+}
+
+.footer h2:hover {
+  color: #e84118;
+  cursor: pointer;
+}
+
+.footer span {
+  color: #3498db;
+}
+
+.footer span:hover {
+  color: #e84118;
+  cursor: pointer;
+}
+
+h2.black-header {
+  color: black;
+}
+
+h2.black-header:hover {
+  color: black;
+}
+
+.footer div {
+  margin: 10px 10px;
+}
+
+.footer-col-2 {
+  text-align: left;
+}
+.footer-col-1 img {
+  width: 110px;
+  height: 150px;
+}
+
+.footer-col-3 {
+  text-align: justify;
+}
+
+.footer-col-3 li {
+  margin: 10px 0;
+}
+.footer-col-4 div {
+  height: 50px;
+  width: 120px;
+  border-right: 1px solid rgb(165, 160, 160);
+  border-bottom: 1px solid rgb(165, 160, 160);
+  border-top: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+}
+
+.footer-col-4 span {
+  margin-left: 10px;
+}
+
+.footer-col-4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.footer-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 20px 40px;
+  font-size: 12px;
+}
+.footer-items div {
+  margin: 0 20px;
+}
+.footer-items ul li {
+  list-style-type: none;
+  color: #3498db;
+  cursor: pointer;
+}
+
+.footer-items .col-6 .MuiSvgIcon-root {
+  font-size: 16px;
+  position: relative;
+  top: 3px;
+  color: #b2bec3;
+  cursor: auto;
+}
+
+.quote {
+  color: #cccccc;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin: 35px auto;
+  font-family: "Bitter", serif;
+}

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400&display=swap");
+.main-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 45vh;
+  width: 100%;
+  background-color: #0984e3;
+  color: white;
+  font-weight: 100;
+}
+
+.intro-section span {
+  font-size: 3.2rem;
+}
+
+.some-info-stuff {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #95a5a6;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.themes-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.themes-image img {
+  width: 70%;
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.themes-image h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.themes-image p {
+  color: #95a5a6;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.parallax-image {
+  margin: 50px 0;
+  background: url("https://s.w.org/images/home/collage-min.jpg?6");
+  height: 600px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.link {
+  text-align: center;
+  color: #0984e3;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

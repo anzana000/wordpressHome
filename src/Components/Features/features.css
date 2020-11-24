@@ -1,0 +1,148 @@
+.features-container {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-container h2 {
+  font-size: 35px;
+  font-weight: 100;
+  color: #2d3436;
+}
+
+.features-container .small-text {
+  margin-top: 15px;
+  color: rgb(155, 153, 153);
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.row-1,
+.row-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row-1 {
+  border-bottom: 1px solid lightgrey;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 40px;
+}
+
+.box .MuiSvgIcon-root {
+  color: #0984e3;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.box p {
+  font-weight: light;
+  font-size: 13px;
+  color: #2d3436;
+}
+
+.some-bottom-text p {
+  color: #2d3436;
+  text-align: center;
+  font-size: 14px;
+}
+
+.some-bottom-text a {
+  color: #0984e3;
+  text-decoration: none;
+}
+
+.some-bottom-text a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.community-image {
+  margin: 40px;
+  background: url("./community-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.community-text .screen {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+.community-text {
+  margin: 0 auto;
+  padding: 3.05176rem 1.5625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.community-text h2 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.community-text button {
+  margin-top: 15px;
+  width: 200px;
+  font-size: 12px;
+  padding: 5px 2px;
+  color: rgb(155, 153, 153);
+  cursor: pointer;
+}
+
+.get-started {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.get-started p {
+  color: rgb(139, 138, 138);
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.get-started button {
+  background-color: #2980b9;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 2px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 100;
+  margin-top: 30px;
+  box-shadow: 0 1px 0 #006799;
+}
